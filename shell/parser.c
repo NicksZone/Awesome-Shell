@@ -88,7 +88,7 @@ char*** lsh_line_to_commands(char **tokens)
         tokenCount = i;
     }
 
-    // test
+    //Debug
     // printf("DEBUG: PRINTING PIPE PARSED COMMANDS\n");
     // for(size_t i = 0; i < cmd_count; i++)
     // {
