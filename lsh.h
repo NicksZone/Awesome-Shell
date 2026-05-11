@@ -23,6 +23,7 @@ void lsh_loop(Shell *sh);
 /* Input / parsing */
 char *lsh_read_line(void);
 char **lsh_split_line(char *line);
+char ***lsh_line_to_commands(char **args);
 
 /* Execution */
 int lsh_execute(Shell *sh, char **args);
